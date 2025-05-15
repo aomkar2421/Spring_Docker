@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org"
+	th:replace="base::layout(~{::section})">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<section>
+		<h1>index page</h1>
+
+		<th:block th:if="${param.logout}">
+			<p class="text-center fs-5 text-danger">Logout Succesfully</p>
+		</th:block>
+	</section>
+</body>
+</html>
