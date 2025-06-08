@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.om.Entity.Product;
 import com.om.service.ProductService;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 @RestController
 public class ProductController {
 

@@ -1,0 +1,11 @@
+target/classes
+target/test-classes
+target/maven-status
+target/maven-archiver
+target/generated-sources
+target/generated-test-sources
+.git
+.gitignore
+README.md
+Dockerfile
+.dockerignore
